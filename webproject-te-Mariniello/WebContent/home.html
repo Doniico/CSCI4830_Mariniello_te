@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+header {
+    background-color:yellow;
+    color:black;
+    text-align:center;
+    padding:5px;	 
+}
+
+section {
+    width:50%px;
+    text-align: left;
+    float:left;
+}
+footer {
+    background-color:yellow;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+input{
+	margin-left:auto;
+	margin-right:auto;
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Article </h1>
+</header>
+
+
+<section>
+	<h1>Insert Article Information</h1>
+	<p> Enter in the relevant information about the article you would like to check against the database </p>
+	
+	<form action="InsertMariniello" method="POST">
+	
+		Author: <input type="text" name="author"> <br />
+		Publication Date: <input type="text" name="pubdate"> <br />
+		Publication Source(Enter the base URL... ex: nytimes, foxnews, npr): <input type="text" name="pubsource"> <br />
+		Title: <input type="text" name ="title"> <br />
+		Publication Address (URL or DOI): <input type="text" name ="pubaddress"> <br />
+		Copyright: <input type="text" name ="copyright"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>

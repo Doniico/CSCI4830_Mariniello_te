@@ -79,7 +79,7 @@ public class InsertMariniello extends HttpServlet {
             
             "</ul>\n");
       
-      out.println("<a href=/WebContent/home.html>Try Another Article</a> <br>");
+      out.println("<a href=/webproject-te-Mariniello/home.html>Try Another Article</a> <br>");
       out.println("</body></html>");
    }
    
